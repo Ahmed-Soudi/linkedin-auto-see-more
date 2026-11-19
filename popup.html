@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LinkedIn Auto See More</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand-icon" aria-hidden="true">↧</div>
+      <div>
+        <h1>LinkedIn Auto See More</h1>
+        <p>Expand text automatically.</p>
+      </div>
+    </header>
+    <label class="setting">
+      <span class="setting-copy">
+        <strong>Auto-expand</strong>
+        <span id="status">Enabled</span>
+      </span>
+      <input type="checkbox" id="enabled" checked>
+      <span class="switch" aria-hidden="true"></span>
+    </label>
+    <p class="detail">Works on posts, job descriptions and profile text. Does not load additional results or comments.</p>
+    <footer>Runs only on LinkedIn · No tracking</footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
